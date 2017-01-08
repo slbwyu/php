@@ -65,9 +65,57 @@ span: 表示一个简单的文字范围区域，只用于文字
 
 <font color="red">文字</font>
 <font color="#FF0000">文字</font>
+<font color="rgb(255,0,200)">文字</font>
 还有rgb表示法
 
 3原色
 红，red：
 绿，green：
 蓝，blue：
+
+列表元素：
+
+无序列表： 由ul 和 li 共同组成，基本格式为：
+<ul type="disc // square // circle">
+    <li> item </li>
+    <li> item </li>
+</ul>
+type是前导符
+
+有序列表： 由ol 和 li 共同组成，基本格式为：
+<ol type="1//A//a//I//i" start="n">  
+    <li> item </li>
+    <li> item </li>
+</ol>
+start是开始序号
+
+定义列表：由dl，dt，dd共同构成的用于表示类似“字典词条解释”的那种界面效果
+dl definition list
+dt definition title 
+dd definition description
+
+基本格式为：
+<dl>
+    <dt>词条</dt>
+    <dd>词条内容</dd>
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
