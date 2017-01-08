@@ -1,0 +1,73 @@
+html 3 days
+css 3 days
+
+	project 静态网页
+
+javascript 8-9 days
+(html5)
+	project 动态网页
+
+php web编程入门 6 days （apache, mysql, php)
+	project 留言板（一个真正使用的php动态网站）
+
+
+* html 介绍
+	将文件或文档以一定的形式表现出来	
+html是由一个一个标签构成，标签之间互相嵌套
+	标签形式
+	<标签名 属性名1 = 值1 属性名2=值2 。。。> 内容 </标签名>，当内容不存在时，可以省略后面的部分，标签基本表现一样，属性才是产生标签特别的形式
+html有一个结构行标签：
+
+<!-- 这是注释 -->
+<!DOCTYPE>   <!-- 必须是第一行 -->
+<html>
+	<head>
+		<title>标题</title>
+	</head>
+	<body>
+	<body>
+		...（网页主要内容）
+	</body>
+</html>
+
+字体元素：
+strong: 强调字体
+b 粗体
+i 斜体
+u 下划线
+sub 上标
+sup 下标
+font ： 用于设定文字颜色，大小和具体文字的标签，格式：
+    <font color='color' size='size' face='字体名称'>内容文字</font>
+address: 设置地址信息文字
+big: 相对大一号
+small: 相对小一号
+
+要学会查手册<html4 参考手册>
+
+排版元素：
+h1,h2,h3,h4,h5,h6: 为标题，h1为最大，h6最小。
+常用属性：align="center"
+hr: 在网页上显示一条横线，如下：
+    <hr color='color' width='linelangth' size='linehigh' noshade>
+    noshade: 设置该线无阴影，默认有
+
+p: 段落标签，每个段落都有其自身的前后空隙
+br: 如果没有自身的换行，可以添加
+pre: 预格式化文本，通常显示程序内容，其中的空白字符都可以输出
+blockquote: 引用标签，网址引用
+以下两个标签是最没用的，但用的会最多，表示一个范围
+
+div: 表示自成一行的范围
+span: 表示一个简单的文字范围区域，只用于文字
+
+颜色介绍
+
+<font color="red">文字</font>
+<font color="#FF0000">文字</font>
+还有rgb表示法
+
+3原色
+红，red：
+绿，green：
+蓝，blue：
